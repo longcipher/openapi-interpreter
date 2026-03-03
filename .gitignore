@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editors
+*.swp
+*.swo
+*~
+.idea/
+.vscode/settings.json
+
+# Generated output directories (from openapi-to-skills)
+output/
+*-skills/
+
+# Bun / npm lock (not needed for a docs-only project)
+bun.lock
+package-lock.json
+
+# Secrets / env
+.env
+.env.local
+*.token
